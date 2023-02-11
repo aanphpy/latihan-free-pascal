@@ -1,0 +1,7 @@
+*
+!.gitignore
+!*.pas
+!basic01/
+!basic02/
+!LICENSE
+!README.md
