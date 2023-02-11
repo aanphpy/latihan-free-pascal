@@ -44,6 +44,18 @@ Pengenalan array dan type
 
 - type1.pass
 
+## Basic #4
+
+Pengenalan Procedure dan Function
+
+- func1.pas
+
+- func2.pas
+
+- func3.pas
+
+
+
 
 
 
