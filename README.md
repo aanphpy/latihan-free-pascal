@@ -1,5 +1,7 @@
 # Latihan Free Pascal
 
+Belajar dari contoh kode berdasarkan urutan berikut ini:
+
 ## Basic #1
 
 Pengenalan output, variabel, operasi matematika dan constant
@@ -41,6 +43,8 @@ Pengenalan array dan type
 - array3.pas
 
 - type1.pass
+
+
 
 
 
