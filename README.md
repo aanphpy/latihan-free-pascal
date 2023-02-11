@@ -28,4 +28,20 @@ Pengenalan data flow menggunakan IF, FOR, WHILE dan REPEAT
 
 - menu4.pas
 
+## Basic #3
+
+Pengenalan array dan type
+
+- array1.pas
+
+- array2.pas
+
+- siswa.pas
+
+- array3.pas
+
+- type1.pass
+
+
+
 
