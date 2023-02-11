@@ -2,7 +2,7 @@
 
 Belajar dari contoh kode berdasarkan urutan berikut ini:
 
-## Basic #1
+## Free Pascal Basic #1
 
 Pengenalan output, variabel, operasi matematika dan constant
 
@@ -12,7 +12,7 @@ Pengenalan output, variabel, operasi matematika dan constant
 - bangun2d.pas
 - bangun2d2.pas
 
-## Basic #2
+## Free Pascal Basic #2
 
 Pengenalan data flow menggunakan IF, FOR, WHILE dan REPEAT
 
@@ -44,7 +44,7 @@ Pengenalan array dan type
 
 - type1.pass
 
-## Basic #4
+## Free Pascal Basic #4
 
 Pengenalan Procedure dan Function
 
@@ -53,6 +53,12 @@ Pengenalan Procedure dan Function
 - func2.pas
 
 - func3.pas
+
+- siswa.pas
+
+## Free Pascal Basic #5
+
+Pembuatan Program-Program Berbasis text, menggunakan materi-materi sebelumnya.
 
 - siswa.pas
 
