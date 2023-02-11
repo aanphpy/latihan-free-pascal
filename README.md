@@ -61,11 +61,3 @@ Pengenalan Procedure dan Function
 Pembuatan Program-Program Berbasis text, menggunakan materi-materi sebelumnya.
 
 - siswa.pas
-
-
-
-
-
-
-
-
