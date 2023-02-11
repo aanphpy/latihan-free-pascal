@@ -272,6 +272,16 @@ begin
 end;
 
 
+procedure AppTitle;
+begin
+    clrscr;
+    writeln;
+    writeln('SISTEM INFORMASI SISWA');
+    writeln('ver 0.1');
+    writeln;
+end;
+
+
 procedure MainScreen;
 begin
     writeln;
@@ -302,6 +312,7 @@ begin
     else if pilihMenu = 5 then // Tampil Semua
     begin
         clrscr;
+        AppTitle();
         MainScreen();
     end
     else if pilihMenu = 6 then // Debug Data
@@ -310,29 +321,28 @@ begin
         DebugData();
         clrscr;
     end
-    else
+    else if pilihMenu = 7 then // Keluar
     begin
         keluar := true;
+    end
+    else
+    begin
+        clrscr;
+        writeln('Input tidak tersedia di menu....[ENTER]');
+        readln;
+        AppTitle();
+        MainScreen();
     end;
-end;
-
-
-procedure AppTitle;
-begin
-    clrscr;
-    writeln;
-    writeln('SISTEM INFORMASI SISWA');
-    writeln('ver 0.1');
-    writeln;
-    write('Tahun : ');
-    readln(tahunIni);
-    writeln;
 end;
 
 
 begin
 
     AppTitle();
+
+    writeln;
+    write('Tahun : ');
+    readln(tahunIni);
 
     while keluar = false do
     begin
