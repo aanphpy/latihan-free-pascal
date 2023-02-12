@@ -91,6 +91,8 @@ begin
 
   if Length(account.username) > 0 then
   begin
+    clrscr;
+    DisplayTitle;
     ShowMessage('Login Sukses. Selamat datang ' + account.fullname, MESSAGE_SUCCESS, MESSAGE_IN_LINE);
     ConfirmQuit;
     Main;
