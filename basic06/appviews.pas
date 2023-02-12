@@ -36,7 +36,7 @@ begin
   write('Username : ');
   readln(u);
   write('Password : ');
-  readln(p);
+  p := PasswordInput;
   writeln;
 end;
 

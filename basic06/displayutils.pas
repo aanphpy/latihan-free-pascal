@@ -7,8 +7,12 @@ unit displayutils;
 
 interface
 
+uses
+  crt;
+
 function ToCol(const s: String; len: Integer): String;
 function StringRepeat(const s: String; len: Integer): String;
+function PasswordInput: String;
 
 implementation
 
@@ -42,5 +46,30 @@ begin
     for i := 1 to len do
         StringRepeat := Concat(StringRepeat, s);
 end;
+
+
+function PasswordInput: String;
+var
+  passwd: String;
+  ch: Char;
+begin
+  passwd := '';
+  ch := #0;
+  while (ch <> #13) do
+  begin
+    ch := readkey;
+    if ch = #8 then begin
+      if Length(passwd) > 0 then begin
+        write(#8,' ',#8);
+        delete(passwd, Length(passwd), 1);
+      end;
+    end else if ch <> #13 then begin
+      write('*');
+      passwd := passwd + ch;
+    end;
+  end;
+  PasswordInput := passwd;
+end;
+
 
 end.
