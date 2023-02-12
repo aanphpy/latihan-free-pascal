@@ -62,6 +62,22 @@ begin
 end;
 
 
+procedure ConfirmQuit;
+var
+  keluar: Char;
+begin
+  writeln;
+  write('Keluar (Y/N) : ');
+  readln(keluar);
+
+  if Length(keluar) = 0 then
+    keluar := 'N';
+
+  if (keluar = 'Y') or (keluar = 'y') then
+    halt;
+end;
+
+
 // Main Procedure
 procedure Main;
 var
@@ -76,12 +92,15 @@ begin
   if Length(account.username) > 0 then
   begin
     ShowMessage('Login Sukses. Selamat datang ' + account.fullname, MESSAGE_SUCCESS, MESSAGE_IN_LINE);
+    ConfirmQuit;
+    Main;
   end
   else
   begin
     clrscr;
     DisplayTitle;
     ShowMessage('Login Gagal', MESSAGE_ERROR, MESSAGE_IN_LINE);
+    ConfirmQuit;
     Main;
   end;
 end;
