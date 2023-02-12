@@ -58,6 +58,18 @@ Pengenalan Procedure dan Function
 
 ## Free Pascal Basic #5
 
-Pembuatan Program-Program Berbasis text, menggunakan materi-materi sebelumnya.
+Pembuatan Program Berbasis text, menggunakan materi-materi sebelumnya.
 
 - siswa.pas
+
+## Free Pascal Basic #6
+
+Manajemen program menggunakan unit.
+
+- siswa.pas
+    * displayutils.pas
+    * appconfig.pas
+    * appmessage.pas
+    * appviews.pas 
+
+
