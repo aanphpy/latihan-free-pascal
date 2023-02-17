@@ -8,7 +8,7 @@ program Siswa;
 
 uses
   SysUtils, crt,
-  displayutils, appconfig, appmessage, appviews, formsiswa;
+  displayutils, appconfig, appmessage, appviews;
 
 type
   TUserModel = record
@@ -16,6 +16,11 @@ type
     password: String;
     fullname: String;
     isadmin: Boolean;
+  end;
+  TSiswa = record
+    nik: String;
+    nama: String;
+    tahunLahir: Integer;
   end;
 
 var
@@ -115,6 +120,23 @@ begin
   if not hasData then begin
     writeln('Belum ada record....');
   end;
+  writeln(StringRepeat('-', LSCREEN));
+end;
+
+
+procedure DisplayFormSiswa(var dSiswa: TSiswa);
+begin
+  writeln;
+  writeln(StringRepeat('=', LSCREEN));
+  writeln('FORM TAMBAH SISWA');
+  writeln(StringRepeat('-', LSCREEN));
+  write(ToCol('NIK', 12), ': ');
+  readln(dSiswa.nik); 
+  write(ToCol('Nama', 12), ': ');
+  readln(dSiswa.nama);
+  write(ToCol('Tahun Lahir', 12), ': ');
+  readln(dSiswa.tahunLahir);
+  writeln;
   writeln(StringRepeat('-', LSCREEN));
 end;
 
