@@ -72,4 +72,12 @@ Manajemen program menggunakan unit.
     * appmessage.pas
     * appviews.pas 
 
+## Free Pascal Basic #7
+
+Operasi file text
+
+- operasifile.pas
+- operasifile1.pas
+- operasifile2.pas
+
 
