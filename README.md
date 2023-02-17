@@ -80,4 +80,15 @@ Operasi file text
 - operasifile1.pas
 - operasifile2.pas
 
+## Free Pascal Basic #8
+
+CRUD dengan mengupdate program siswa.pas dari materi Basic #5
+
+- siswa.pas
+  * formsiswa.pas 
+  * displayutils.pas
+  * appconfig.pas
+  * appmessage.pas
+  * appviews.pas
+
 
