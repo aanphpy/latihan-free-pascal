@@ -90,4 +90,8 @@ CRUD dengan mengupdate program siswa.pas dari materi Basic #5
   * appmessage.pas
   * appviews.pas
 
+## Free Pascal Basic #9
 
+Dari materi Basic #8, ditambah fitur baca simpan ke dalam file csv.
+Setelah login, jika ada data yang pernah tersimpan sebelumnya, data akan ditampilkan.
+Saat keluar, data akan disimpan ulang ke csv.
